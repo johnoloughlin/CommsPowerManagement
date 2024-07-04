@@ -24,7 +24,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ python ]
+        language: [ Python ]
 
     steps:
       - name: Harden Runner
